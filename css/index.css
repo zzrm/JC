@@ -1,0 +1,16 @@
+body{
+    margin: 5px;
+    padding: 0;
+}
+iframe{
+    width: 380px;
+    height: 190px;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+}
+.biaotou{
+    margin-left: 15px;
+    font-family: '微软雅黑';
+    font-weight: bold;
+}
