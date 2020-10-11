@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+iframe{
+    width: 900px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+}
+.biaotou{
+    background-color: aqua;
+    /* margin-left: 15px; */
+    font-family: '微软雅黑';
+    font-size: 20px;
+    font-weight: bold;
+}
+.main{
+    width: 900px;
+}
+

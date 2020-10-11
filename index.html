@@ -1,23 +1,59 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html>
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
-    <title>Test</title>
-    <link rel="stylesheet" type="text/css" href="/css/index.css">
-</head>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+        <title>郑州冉码</title>
+        <link rel="stylesheet" type="text/css" href="/css/connter.css">
+        <script type="text/javascript">
+            var ua = navigator.userAgent;
 
-<body>
-    <div id="connter">
-        <div>
-            <div class="biaotou">GoDEX打印机基础教学G500机器安装</div>
-            <iframe src="//player.bilibili.com/player.html?aid=202225146&bvid=BV1Rh411X7yW&cid=239760254&page=1" scrolling="no"
-                border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+            var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+
+                isIphone = !ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+
+                isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+
+                isMobile = isIphone || isAndroid;
+
+            //判断
+
+            if (isMobile) {
+                location.href = 'mobile'
+            } else {}
+        </script>
+    </head>
+
+    <body>
+        <div id="connter">
+            <div class="main">
+                <div class="biaotou">GoDex_EZ-1100Plus-_安装标签和碳带_</div>
+                <iframe src="//player.bilibili.com/player.html?aid=202225146&bvid=BV1Rh411X7yW&cid=239760254&page=1"
+                    scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+            </div>
+            <div class="main">
+                <div class="biaotou">G500打印机感应器</div>
+                <iframe src="//player.bilibili.com/player.html?aid=969979017&bvid=BV1wp4y1k7Sw&cid=244547721&page=1"
+                    scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+            </div>
+            <div class="main">
+                <div class="biaotou">学校考试标签模板建立</div>
+                <iframe src="//player.bilibili.com/player.html?aid=839984064&bvid=BV1154y1R7Bc&cid=244507004&page=1"
+                    scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+            </div>
+            <div class="main">
+                <div class="biaotou">珠宝标签建立模板</div>
+                <iframe src="//player.bilibili.com/player.html?aid=542417071&bvid=BV1ei4y1j7XQ&cid=244531923&page=1"
+                    scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+            </div>
         </div>
-    </div>
-    <script type="text/javascript" src="/js/index.js"></script>
-</body>
+        <script>
+            var a=document.body.offsetWidth;
+            a=(a-900)/2
+            document.getElementById("connter").style.marginLeft=a+"px"
+        </script>
+    </body>
 
 </html>
